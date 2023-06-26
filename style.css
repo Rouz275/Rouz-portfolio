@@ -34,7 +34,7 @@ nav {
 }
 
 main {
-  background-image: url("/images/cloudy-sky.jpg");
+  background-image: url("images/cloudy-sky.jpg");
   padding: 20px 0 20px 20px;
   background-size: cover;
   color: white;
