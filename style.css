@@ -1,0 +1,94 @@
+a {
+  text-decoration: none;
+}
+
+a:link { 
+  color: white;
+}
+a:visited { 
+  color: white;
+}
+a:hover { 
+  color: white;
+}
+a:active { 
+  color: white;
+}
+
+header div {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: Times, "Times New Roman", serif;
+  padding: 20px 0 20px 20px; 
+  text-shadow: 0px 0px 12px #000;
+}
+
+h1 {
+  padding-left: 170px;
+}
+
+nav {
+  float: right;
+  padding: 10px;
+}
+
+main {
+  background-image: url("/images/cloudy-sky.jpg");
+  padding: 20px 0 20px 20px;
+  background-size: cover;
+  color: white;
+  font-family: Times, "Times New Roman", serif;
+}
+
+main div, h2, p, hr, ul, ol {
+  width: 600px;
+  margin: auto;
+  text-shadow: 0px 0px 12px #000;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+.aboutme p {
+  line-height: 25px;
+  text-indent: 50px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0 20px 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+img {
+  border: 3px solid black;
+  height: 600px;
+  width: 600px;
+}
+
+ol, ul {
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-family: Times, "Times New Roman", serif;
+}
+
+footer div {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0 20px 20px;
+  text-shadow: 0px 0px 12px #000;
+}
