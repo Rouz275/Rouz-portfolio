@@ -1,3 +1,4 @@
+/* match color of links to text and remove underline */
 a {
   text-decoration: none;
 }
@@ -15,6 +16,7 @@ a:active {
   color: white;
 }
 
+/* set header details and position nav bar. */
 header div {
   text-align: center;
   color: white;
@@ -24,6 +26,7 @@ header div {
   text-shadow: 0px 0px 12px #000;
 }
 
+/* move header to the right so it is centered */
 h1 {
   padding-left: 170px;
 }
@@ -33,38 +36,41 @@ nav {
   padding: 10px;
 }
 
+/* add background image and set page parameters */
 main {
-  background-image: url("images/cloudy-sky.jpg");
+  background-image: url("/images/cloudy-sky.jpg");
   padding: 20px 0 20px 20px;
   background-size: cover;
   color: white;
   font-family: Times, "Times New Roman", serif;
 }
 
-main div, h2, p, hr, ul, ol {
+/* shadow all the text */
+main div, hr{
   width: 600px;
   margin: auto;
   text-shadow: 0px 0px 12px #000;
 }
 
-p {
-  padding-bottom: 10px;
-}
-
+/* create spacing in the paragraphs in the 'aboutme' class article container*/
 .aboutme p {
   line-height: 25px;
   text-indent: 50px;
+  padding-bottom: 10px;
 }
 
+/* center all the h2 tags and create spacing from the other text */
 h2 {
   text-align: center;
   padding: 20px 0 20px 20px;
 }
 
+/* create spacing at the top of the page dividers */
 hr {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
+/* make image heigh match the text parameters */
 img {
   border: 3px solid black;
   height: 600px;
@@ -75,12 +81,14 @@ ol, ul {
   padding-bottom: 10px;
 }
 
+/* create class for images that centers them on the page */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* make footer match the header */
 h3 {
   font-family: Times, "Times New Roman", serif;
 }
